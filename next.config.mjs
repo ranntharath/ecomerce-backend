@@ -25,7 +25,7 @@ const nextConfig = {
         headers: [
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://localhost:5173", // Set your origin
+            value: "*", // Set your origin
           },
           {
             key: "Access-Control-Allow-Methods",
